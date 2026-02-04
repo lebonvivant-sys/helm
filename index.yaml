@@ -3,7 +3,7 @@ entries:
   redhat-mysql-persistent:
   - apiVersion: v2
     appVersion: 0.0.5
-    created: "2026-02-04T12:12:21.458395012+01:00"
+    created: "2026-02-04T12:24:24.847724296+01:00"
     description: 'This content is experimental, do not use it in production. MySQL
       database service, with persistent storage. For more information about using
       this template, including OpenShift considerations, see https://github.com/sclorg/mysql-container/blob/master/8.0/root/usr/share/container-scripts/mysql/README.md.  NOTE:
@@ -18,4 +18,4 @@ entries:
     urls:
     - https://github.com/lebonvivant-sys/helm/redhat-mysql-persistent-0.0.5.tgz
     version: 0.0.5
-generated: "2026-02-04T12:12:21.457520213+01:00"
+generated: "2026-02-04T12:24:24.846836165+01:00"
