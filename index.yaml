@@ -1,24 +1,15 @@
 apiVersion: v1
 entries:
   redhat-mysql-persistent:
-  - annotations:
-      charts.openshift.io/digest: sha256:6caf533969e00939d28e894c72bcd2d5e61c18da35e824d87ac6ef7f5b9e5c6f
-      charts.openshift.io/lastCertifiedTimestamp: "2025-08-12T13:28:05.354477+00:00"
-      charts.openshift.io/name: Red Hat MySQL database service, with persistent storage
-        (experimental)
-      charts.openshift.io/provider: Red Hat
-      charts.openshift.io/providerType: community
-      charts.openshift.io/supportedOpenShiftVersions: '>=4.7'
-      charts.openshift.io/testedOpenShiftVersion: N/A
-    apiVersion: v2
+  - apiVersion: v2
     appVersion: 0.0.5
-    created: "2026-02-04T12:04:17.31543928+01:00"
+    created: "2026-02-04T12:12:21.458395012+01:00"
     description: 'This content is experimental, do not use it in production. MySQL
       database service, with persistent storage. For more information about using
       this template, including OpenShift considerations, see https://github.com/sclorg/mysql-container/blob/master/8.0/root/usr/share/container-scripts/mysql/README.md.  NOTE:
       Scaling to more than one replica is not supported. You must have persistent
       volumes available in your cluster to use this template.'
-    digest: 1b48d5912e2c53a63d3064287d76d362cd596f9bf1c9a8d7b737e47471950c3d
+    digest: ded4e770d81ad529bfec181e9cc6094970f5c0ef9b3236db93e2f4134e73a3e9
     kubeVersion: '>=1.20.0'
     name: redhat-mysql-persistent
     sources:
@@ -27,4 +18,4 @@ entries:
     urls:
     - https://github.com/lebonvivant-sys/helm/redhat-mysql-persistent-0.0.5.tgz
     version: 0.0.5
-generated: "2026-02-04T12:04:17.314477326+01:00"
+generated: "2026-02-04T12:12:21.457520213+01:00"
