@@ -49,7 +49,7 @@ spec:
           valueFrom:
             secretKeyRef:
               name: mysql-57-rhel7
-              key: Values.MYSQL_DATABASE
+              key: MYSQL_DATABASE
         image: "quay.io/klaj2210/mysql-57-rhel7"
         imagePullPolicy: IfNotPresent
         livenessProbe:
