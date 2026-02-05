@@ -33,22 +33,22 @@ spec:
         - name: MYSQL_USER
           valueFrom:
             secretKeyRef:
-              key: mysql_user
+              key: MYSQL_USER
               name: {{ .Values.database_service_name }}
         - name: MYSQL_PASSWORD
           valueFrom:
             secretKeyRef:
-              key: mysql_password
+              key: MYSQL_PASSWORD
               name: {{ .Values.database_service_name }}
         - name: MYSQL_ROOT_PASSWORD
           valueFrom:
             secretKeyRef:
-              key: mysql_root_password
+              key: MYSQL_ROOT_PASSWORD
               name: {{ .Values.database_service_name }}
         - name: MYSQL_DATABASE
           valueFrom:
             secretKeyRef:
-              key: mysql_database
+              key: MYSQL_DATABASE
               name: {{ .Values.database_service_name }}
           image: "quay.io/klaj2210/mysql-57-rhel7"
         imagePullPolicy: IfNotPresent
