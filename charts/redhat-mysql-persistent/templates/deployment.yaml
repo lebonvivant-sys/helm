@@ -50,7 +50,7 @@ spec:
             secretKeyRef:
               key: MYSQL_DATABASE
               name: {{ .Values.MYSQL_DATABASE }}
-          image: "quay.io/klaj2210/mysql-57-rhel7"
+        image: "quay.io/klaj2210/mysql-57-rhel7"
         imagePullPolicy: IfNotPresent
         livenessProbe:
           exec:
