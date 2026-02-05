@@ -8,7 +8,7 @@ metadata:
         {
           "from": {
             "kind": "ImageStreamTag",
-            "name": "mysql:{{ .Values.mysql_version }}"
+            "name": "mysql-57-rhel7:{{ .Values.mysql_version }}"
           },
           "fieldPath": "spec.template.spec.containers[0].image"
         }
