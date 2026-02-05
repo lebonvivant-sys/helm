@@ -9,16 +9,16 @@
         "namespace": {
             "type": "string"
         },
-        "mysql_database": {
+        "MYSQL_DATABASE": {
             "type": "string"
         },
-        "mysql_password": {
+        "MYSQL_PASSWORD": {
             "type": "string"
         },
-        "mysql_root_password": {
+        "MYSQL_ROOT_PASSWORD": {
             "type": "string"
         },
-        "mysql_user": {
+        "MYSQL_USER": {
             "type": "string"
         },
         "volume_capacity": {

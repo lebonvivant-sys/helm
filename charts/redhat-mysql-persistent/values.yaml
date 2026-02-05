@@ -1,9 +1,9 @@
 database_service_name: mysql-57-rhel7
 memory_limit: 512Mi
-mysql_database: testdb
-mysql_password: testp # TODO: must define a default value for .mysql_password'
-mysql_root_password: testur # TODO: must define a default value for .mysql_root_password'
-mysql_user: testu # TODO: must define a default value for .mysql_user'
+MYSQL_DATABASE: testdb
+MYSQL_PASSWORD: testp # TODO: must define a default value for .mysql_password'
+MYSQL_ROOT_PASSWORD: testur # TODO: must define a default value for .mysql_root_password'
+MYSQL_USER: testu # TODO: must define a default value for .mysql_user'
 mysql_version: latest
 namespace: openshift
 volume_capacity: 1Gi
