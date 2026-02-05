@@ -12,7 +12,7 @@ entries:
       charts.openshift.io/testedOpenShiftVersion: N/A
     apiVersion: v2
     appVersion: 0.1.2
-    created: "2026-02-05T15:08:57.656864492+01:00"
+    created: "2026-02-05T15:30:29.391225208+01:00"
     description: 'This content is experimental, do not use it in production. MySQL
       database service, with persistent storage. For more information about using
       this template, including OpenShift considerations, see https://github.com/sclorg/mysql-container/blob/master/8.0/root/usr/share/container-scripts/mysql/README.md.  NOTE:
@@ -38,7 +38,7 @@ entries:
       charts.openshift.io/testedOpenShiftVersion: N/A
     apiVersion: v2
     appVersion: 0.1.1
-    created: "2026-02-05T15:08:57.656142779+01:00"
+    created: "2026-02-05T15:30:29.390483645+01:00"
     description: 'This content is experimental, do not use it in production. MySQL
       database service, with persistent storage. For more information about using
       this template, including OpenShift considerations, see https://github.com/sclorg/mysql-container/blob/master/8.0/root/usr/share/container-scripts/mysql/README.md.  NOTE:
@@ -64,7 +64,7 @@ entries:
       charts.openshift.io/testedOpenShiftVersion: N/A
     apiVersion: v2
     appVersion: 0.1.0
-    created: "2026-02-05T15:08:57.655440657+01:00"
+    created: "2026-02-05T15:30:29.389725773+01:00"
     description: 'This content is experimental, do not use it in production. MySQL
       database service, with persistent storage. For more information about using
       this template, including OpenShift considerations, see https://github.com/sclorg/mysql-container/blob/master/8.0/root/usr/share/container-scripts/mysql/README.md.  NOTE:
@@ -90,7 +90,7 @@ entries:
       charts.openshift.io/testedOpenShiftVersion: N/A
     apiVersion: v2
     appVersion: 0.0.9
-    created: "2026-02-05T15:08:57.65472212+01:00"
+    created: "2026-02-05T15:30:29.38896318+01:00"
     description: 'This content is experimental, do not use it in production. MySQL
       database service, with persistent storage. For more information about using
       this template, including OpenShift considerations, see https://github.com/sclorg/mysql-container/blob/master/8.0/root/usr/share/container-scripts/mysql/README.md.  NOTE:
@@ -116,7 +116,7 @@ entries:
       charts.openshift.io/testedOpenShiftVersion: N/A
     apiVersion: v2
     appVersion: 0.0.8
-    created: "2026-02-05T15:08:57.653957187+01:00"
+    created: "2026-02-05T15:30:29.388267343+01:00"
     description: 'This content is experimental, do not use it in production. MySQL
       database service, with persistent storage. For more information about using
       this template, including OpenShift considerations, see https://github.com/sclorg/mysql-container/blob/master/8.0/root/usr/share/container-scripts/mysql/README.md.  NOTE:
@@ -142,7 +142,7 @@ entries:
       charts.openshift.io/testedOpenShiftVersion: N/A
     apiVersion: v2
     appVersion: 0.0.7
-    created: "2026-02-05T15:08:57.65323103+01:00"
+    created: "2026-02-05T15:30:29.387491194+01:00"
     description: 'This content is experimental, do not use it in production. MySQL
       database service, with persistent storage. For more information about using
       this template, including OpenShift considerations, see https://github.com/sclorg/mysql-container/blob/master/8.0/root/usr/share/container-scripts/mysql/README.md.  NOTE:
@@ -157,4 +157,4 @@ entries:
     urls:
     - https://lebonvivant-sys.github.io/helm/redhat-mysql-persistent-0.0.7.tgz
     version: 0.0.7
-generated: "2026-02-05T15:08:57.652247854+01:00"
+generated: "2026-02-05T15:30:29.386490792+01:00"
