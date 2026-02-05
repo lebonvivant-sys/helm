@@ -50,7 +50,6 @@ spec:
             secretKeyRef:
               key: database-name
               name: {{ .Values.database_service_name }}
-                #image: "docker.io/library/mysql:latest"
         image: "https://quay.io/repository/klaj2210/mysql-57-rhel7"
         imagePullPolicy: IfNotPresent
         livenessProbe:
