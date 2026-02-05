@@ -1,4 +1,12 @@
 annotations:
+  charts.openshift.io/digest: sha256:6caf533969e00939d28e894c72bcd2d5e61c18da35e824d87ac6ef7f5b9e5c6f
+  charts.openshift.io/lastCertifiedTimestamp: "2025-08-12T13:28:05.354477+00:00"
+  charts.openshift.io/name: Red Hat MySQL database service, with persistent storage
+    (experimental)
+  charts.openshift.io/provider: Red Hat
+  charts.openshift.io/providerType: community
+  charts.openshift.io/supportedOpenShiftVersions: '>=4.7'
+  charts.openshift.io/testedOpenShiftVersion: N/A
 apiVersion: v2
 appVersion: 0.0.5
 description: 'This content is experimental, do not use it in production. MySQL database
